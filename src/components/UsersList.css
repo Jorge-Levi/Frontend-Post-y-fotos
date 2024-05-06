@@ -1,0 +1,79 @@
+/* src/components/UsersList.css */
+.user-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user-card {
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.user-card h2 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.user-card p {
+  padding: 0 10px 10px;
+}
+
+.user-card .email {
+  color: #555;
+}
+
+.user-card .address {
+  color: #666;
+  font-size: 14px;
+}
+
+.user-card .coords {
+  background-color: #f8f9fa;
+  padding: 10px;
+  font-style: italic;
+}
+
+/* src/components/UsersList.css */
+/* Estilos existentes... */
+
+/* src/components/UsersList.css */
+/* Estilos existentes... */
+
+.user-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px; /* Asegura un tamaño de texto adecuado */
+}
+
+.user-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries para ajustar los botones en dispositivos más pequeños */
+@media (max-width: 768px) {
+  .user-card button {
+    padding: 12px 24px; /* Más grande para una mejor accesibilidad en pantallas táctiles */
+    font-size: 14px; /* Ajustar el tamaño del texto para que no sea demasiado grande */
+  }
+}
+
+@media (max-width: 480px) {
+  .user-card button {
+    width: 100%; /* Los botones toman todo el ancho disponible para facilitar el toque */
+    margin: 5px 0; /* Ajustar los márgenes para un mejor apilamiento */
+    padding: 10px 0; /* Ajustar el padding para mantener la proporcionalidad */
+  }
+}

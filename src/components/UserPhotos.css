@@ -1,0 +1,31 @@
+.user-photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .photo-item {
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .photo-item p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+  }
+  
