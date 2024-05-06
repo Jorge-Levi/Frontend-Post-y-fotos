@@ -1,0 +1,37 @@
+/* src/components/LogsList.css */
+
+.logs-list {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logs-list h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .logs-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .logs-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logs-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .logs-list strong {
+    color: #444;
+  }
+  
